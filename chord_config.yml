@@ -1,0 +1,36 @@
+# config file for chord_finder
+
+chord_definitions:
+  # integers correspond separation (in semitones) of root to other note in chord
+  M: (4, 7)
+  m: (3, 7)
+  dim: (3, 6)
+  +: (4, 8)
+  sus4: (5, 7)
+  sus2: (2, 7)
+  dom7: (4, 7, 10)
+  M7: (4, 7, 11)
+  m7: (3, 7, 10)
+  m9: (3, 7, 10, 2)
+  dom9: (4, 7, 10, 2)
+  M9: (4, 7, 11, 2)
+  dim7: (3, 6, 9)
+  m7b5: (3, 6, 10)
+  M7#5: (4, 8, 11)
+  dimMajor7: (4, 8, 11)
+  +dom7: (4, 8, 11)
+
+mode_definitions:
+  diatonic: [2,2,1,2,2,2,1]
+  harmonic_minor: [2,1,2,2,1,3,1]
+  whole_tone: [2, 2, 2, 2, 2]
+  octatonic: [1, 2, 1, 2, 1, 2, 1, 2]
+
+  #the messiaen modes
+  messiaen_mode_1: [2, 2, 2, 2, 2] # aka whole tone scale
+  messiaen_mode_2: [1, 2, 1, 2, 1, 2, 1, 2] # aka octatonic or diminished scale
+  messiaen_mode_3: [2, 1, 1, 2, 1, 1, 2, 1]
+  messiaen_mode_4: [1, 1, 3, 1, 1, 1, 3]
+  messiaen_mode_5: [1, 3, 1, 1, 3, 1]
+  messiaen_mode_6: [2, 2, 1, 1, 2, 2, 1, 1]
+  messiaen_mode_7: [1, 1, 1, 2, 1, 1, 1, 1, 2, 1]
