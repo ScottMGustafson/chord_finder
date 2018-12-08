@@ -1,6 +1,6 @@
 # Chord Finder
 
-Generate all possible chords from specified scale.
+Python Script to generate all possible chords from specified scale.
 
 Possible chord definitions and scale definitions are specified in `chord_config.yml`
 
