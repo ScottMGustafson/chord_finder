@@ -1,6 +1,6 @@
 # Chord Finder
 
-generate all possible chords from specified scale.
+Generate all possible chords from specified scale.
 
 Possible chord definitions and scale definitions are specified in `chord_config.yml`
 
