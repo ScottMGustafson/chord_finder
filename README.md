@@ -1,6 +1,8 @@
 # Chord Finder
 
-Python Script to generate all possible chords from specified scale. Possible chord definitions and scale definitions are specified in `chord_config.yml`
+Python Script to generate all possible chords from specified scale. Possible chord definitions and 
+scale definitions are specified in `chord_config.yml`.  I essentially use this as a compositional tool
+to find chords that fit with a particular mode I'm playing with.  Nothing more.
 
 Run the script in the shell like:
 
