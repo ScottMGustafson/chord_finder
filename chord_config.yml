@@ -21,7 +21,7 @@ chord_definitions:
   dimMajor7: (4, 8, 11)
   +dom7: (4, 8, 11)
   6: (4, 7, 9)
-  m6: (m, 7, 9)
+  m6: (3, 7, 9)
 
 mode_definitions:
   diatonic: [2,2,1,2,2,2,1]
